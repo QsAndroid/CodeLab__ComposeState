@@ -8,7 +8,7 @@ import androidx.compose.ui.Modifier
 fun WellnessScreen (modifier: Modifier = Modifier) {
 
     Scaffold {
-        WaterCounter(modifier)
-        
+
+        StatefulCounter(modifier)
     }
 }
