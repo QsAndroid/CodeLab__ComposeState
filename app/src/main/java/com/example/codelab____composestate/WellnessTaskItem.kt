@@ -36,7 +36,11 @@ fun WellnessTaskItem(
                 .padding(top = 16.dp, start = 16.dp),
             text = taskName)
 
-        Checkbox(checked = checked, onCheckedChange = onCheckedChange)
+        Checkbox(
+            checked = checked,
+            onCheckedChange = onCheckedChange
+        )
+
         IconButton(
             onClick = onClose,
             modifier = Modifier.padding(top = 16.dp)
