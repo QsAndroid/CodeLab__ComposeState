@@ -23,7 +23,7 @@ fun StatelessCounter (
     Button(
         onClick = onIncrement,
         modifier = Modifier.padding(top =  32.dp,),
-        
+
         enabled = count < 10
     ) {
         Text(text = "Add one")

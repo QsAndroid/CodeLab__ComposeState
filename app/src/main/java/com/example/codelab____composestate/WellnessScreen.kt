@@ -10,5 +10,6 @@ fun WellnessScreen (modifier: Modifier = Modifier) {
     Scaffold {
 
         StatefulCounter(modifier)
+        WellnessTaskList()
     }
 }
